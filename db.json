@@ -1,0 +1,80 @@
+ { "details": [
+    {
+        "id": 1,
+        "company": "Gmail",
+        "website_url": "www.gmail.com",
+        "username": "email_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 2,
+        "company": "FaceBook",
+        "website_url": "www.facebook.com",
+        "username": "facebook_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 3,
+        "company": "Reddit",
+        "website_url": "www.reddit.com",
+        "username": "reddit_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 4,
+        "company": "Chase Bank",
+        "website_url": "www.chase.com",
+        "username": "chase_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 5,
+        "company": "GitHub",
+        "website_url": "www.github.com",
+        "username": "github_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 6,
+        "company": "Ally Bank",
+        "website_url": "www.ally.com",
+        "username": "ally_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 7,
+        "company": "Instagram",
+        "website_url": "www.instagram.com",
+        "username": "instagram_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 8,
+        "company": "SnapChat",
+        "website_url": "www.snapchat.com",
+        "username": "snapchat_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 9,
+        "company": "LinkedIn",
+        "website_url": "www.linkedin.com",
+        "username": "linkedin_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 10,
+        "company": "Pinterest",
+        "website_url": "www.pinterest.com",
+        "username": "pinterest_dude",
+        "password": "pa$$word"
+    },
+    {
+        "id": 11,
+        "company": "Amazon",
+        "website_url": "www.amazon.com",
+        "username": "amazon_dude",
+        "password": "pa$$word"
+    }
+    ]
+}
