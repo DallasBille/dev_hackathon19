@@ -3,7 +3,7 @@
 Creator: Tracy Ho, Michael Romero, Seann Branchfield, Marcus Killebrew, and Dallas Bille.
 
 ## Purpose
-The Goal of "My Passwords" is to simply consolidate all the passwords that a user has, in one place. So if a user forgets one, or needs to access the passwords, they can log on to "My Passwords" and get the information. Because "My Passwords" holds users password detail, we have implemented YubiKey authentication for added security.
+The Goal of "My Passwords" is to simply consolidate all the passwords that a user has into an online space. If a user forgets a password/username, they can log on to "My Passwords" and get the information. Because "My Passwords" holds a users password details, we have implemented YubiKey authentication for added security.
 
 This idea was born from the frustration of having to keep a physical list of all passwords, or having to memorize way too many. Instead, you can download the application, set up your YubiKey, and upload passwords yourself, knowing access to "My Passwords" application is secure with YubiKey.
 
