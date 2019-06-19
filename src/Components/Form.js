@@ -19,8 +19,8 @@ class Form extends Component {
     // console.log(this.state.company);
     render(){
         return(
-            <div className="new-form">
-                <form className="">
+            <div>
+                <form className="uk-form-small">
                     <h2>Add New Login Details</h2>
                     <label>Company</label>
                     <input onChange={this.handleChange} type="text" name="company" value={this.state.company}/>

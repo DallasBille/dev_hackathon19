@@ -1,29 +1,17 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom'
 
 class Nav extends Component {
 
-    // state = {
-    //     company: "",
-    //     website_url: "",
-    //     username: '',
-    //     password: ''
-    // }
-
-    // handleChange = (event) => {
-    //     console.log(event.target.value);
-    //     this.setState({
-    //         [event.target.name]: event.target.value
-    //     },() => console.log(this.state))
-    // }
-
-    // console.log(this.state.company);
     render(){
         return(
-            <div className="nav">
-                <p>Fuck</p>
+            <div className="navbar uk-navbar-container uk-margin">
+              <div className="uk-navbar-right">
+                <li><Link to="/">Logout</Link></li>
+              </div>
             </div>
         )
     }
 }
 
-export default Nav
+export default Nav;
