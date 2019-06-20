@@ -2,6 +2,7 @@ import React from 'react';
 
 const AccountCard = props => {
 
+
   return (
     <div className="account-card">
       <div className="content">
@@ -10,6 +11,7 @@ const AccountCard = props => {
           <a href={props.account.website_url} target="_blank">URL: {props.account.website_url}</a>
           <p><strong>Username:</strong> {props.account.username}</p>
           <p><strong>Password:</strong> {props.account.password}</p>
+          <button onClick={()=>props.handleDelete(props.account.id)} className="account-delete">Delete Account</button>
         </div>
       </div>
     </div>

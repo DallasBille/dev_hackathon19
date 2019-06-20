@@ -17,10 +17,21 @@ export default class AccountList extends Component {
     })
   }
 
+  handleDelete = (id) => {
+      const filtered = this.state.accounts.filter(account => {
+          if(account.id != id){
+              return account
+          }
+      })
+      this.setState({
+          accounts: filtered
+      })
+  }
+
   render() {
     return (
       <div className="ui container">
-        {this.state.accounts.map(account => <AccountCard key={account.id} account={account} />)}
+        {this.state.accounts.map(account => <AccountCard handleDelete={this.handleDelete}key={account.id} account={account} />)}
       </div>
     )
   }
