@@ -98,3 +98,7 @@ button {
 .add-new {
     margin-bottom: 20px;
 }
+
+#account-container {
+    margin: auto;
+}
