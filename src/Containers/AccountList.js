@@ -7,10 +7,6 @@ export default class AccountList extends Component {
   state = {
     accounts: []
   }
-  // company: '',
-  // website: '',
-  // username: '',
-  // password: ''
 
   componentDidMount() {
     adapter.getAccounts()
@@ -24,7 +20,7 @@ export default class AccountList extends Component {
   render() {
     return (
       <div className="ui container">
-        {this.state.accounts.map(account => <AccountCard account={account} />)}
+        {this.state.accounts.map(account => <AccountCard key={account.id} account={account} />)}
       </div>
     )
   }
