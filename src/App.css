@@ -78,3 +78,8 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.account-card {
+    border-style: solid;
+    margin: 5px;
+}
