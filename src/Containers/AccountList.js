@@ -18,11 +18,7 @@ export default class AccountList extends Component {
   }
 
   handleDelete = (id) => {
-      const filtered = this.state.accounts.filter(account => {
-          if(account.id != id){
-              return account
-          }
-      })
+      const filtered = this.state.accounts.filter(account => account.id === id)
       this.setState({
           accounts: filtered
       })

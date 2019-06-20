@@ -10,18 +10,17 @@ class Form extends Component {
     }
 
     handleChange = (event) => {
-        console.log(event.target.value);
         this.setState({
             [event.target.name]: event.target.value
-        },() => console.log(this.state))
+        })
     }
+    // ,() => console.log(this.state)
 
-    // console.log(this.state.company);
     render(){
         return(
-            <div class="form-modal">
-              <div class="form-modal-content">
-                <span onClick={this.props.closeForm} class="close">&times;</span>
+            <div className="form-modal">
+              <div className="form-modal-content">
+                <span onClick={this.props.closeForm} className="close">&times;</span>
                 <form onSubmit={event=>this.props.handleSubmit(event, this.state)} >
                   <h2>Add New Login Details</h2>
                   <label>Company</label>
@@ -44,4 +43,4 @@ class Form extends Component {
     }
 }
 
-export default Form
+export default Form;
