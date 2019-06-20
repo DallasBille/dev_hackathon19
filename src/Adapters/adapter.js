@@ -1,4 +1,4 @@
-const ACCOUNT_URL = ''
+const ACCOUNT_URL = 'http://localhost:4000/details'
 
 const postAccount = (obj) => {
   return {
