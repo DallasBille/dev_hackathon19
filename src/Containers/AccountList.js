@@ -30,7 +30,7 @@ export default class AccountList extends Component {
 
   render() {
     return (
-      <div className="ui container">
+      <div id="account-container" className="ui container">
         {this.state.accounts.map(account => <AccountCard handleDelete={this.handleDelete}key={account.id} account={account} />)}
       </div>
     )
