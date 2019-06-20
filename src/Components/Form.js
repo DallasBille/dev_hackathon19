@@ -22,7 +22,7 @@ class Form extends Component {
             <div class="form-modal">
               <div class="form-modal-content">
                 <span onClick={this.props.closeForm} class="close">&times;</span>
-                <form className="uk-form-small">
+                <form>
                   <h2>Add New Login Details</h2>
                   <label>Company</label>
                   <input onChange={this.handleChange} type="text" name="company" value={this.state.company}/>

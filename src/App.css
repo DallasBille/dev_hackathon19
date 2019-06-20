@@ -32,19 +32,19 @@
   }
 }
 
-.item {
+.account-card {
   width: 50%;
   border-radius: 5px;
   box-shadow: 4px 4px 4px grey;
   transition: transform .5s;
 }
 
-.item:hover {
+.account-card:hover {
   transform: translateX(15px);
 }
 
 .form-modal {
-  display: none; 
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -57,7 +57,7 @@
 }
 
 .form-modal-content {
-  background-color: #fefefe;
+  background-color: white;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
