@@ -37,3 +37,8 @@
   border-radius: 5px;
   box-shadow: 4px 4px 4px grey;
 }
+
+.account-card {
+    border-style: solid;
+    margin: 5px;
+}

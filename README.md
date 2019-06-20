@@ -16,6 +16,8 @@ This idea was born from the frustration of having to keep a physical list of all
 
 ### `npm start`
 
+### `npm run mock:api`
+
 ## Design Statement
 
 Our Application serves users who are tired of having to memorize different usernames and passwords for a plethora of sites. It consolidates these details into one platform, and gives users secure access to this information through YubiKey.
