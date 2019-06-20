@@ -8,6 +8,17 @@
   pointer-events: none;
 }
 
+button {
+  font-size: 12px;
+  background-color: grey;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -81,4 +92,8 @@
 .account-card {
     border-style: solid;
     margin: 5px;
+}
+
+.add-new {
+    margin-bottom: 20px;
 }
